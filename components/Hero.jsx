@@ -1,7 +1,7 @@
 "use client";
 import React from 'react'
 import  CustomButton  from '../components/CustomButton'
-import Heropng from  '../public/hero.png'
+import Heropng from  '../public/hero.webp'
 import Image from 'next/image';
 
 const Hero = () => {
@@ -14,15 +14,14 @@ const Hero = () => {
   };
 
   return (
-    <div className='hero'>
+    <div className='hero bg-black text-white'>
     <div className="flex-1 pt-36 padding-x">
     <h1 className="hero__title">
-          Find, book, rent a car—quick and super easy!
+    Discover, and lease a vehicle effortlessly and in no time!
         </h1>
         
-        <p className="hero__subtitle">
-          Streamline your car rental experience with our effortless booking
-          process.
+        <p className="hero__subtitle text-white">
+        Simplify your car rental journey with our seamless booking process.
         </p>
         <CustomButton
           title="Explore Cars"
